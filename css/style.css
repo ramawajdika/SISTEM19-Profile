@@ -1,0 +1,283 @@
+ body {
+  margin: 0;
+  font-family: "Merriweather", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+  height: 100%;
+ 
+
+}
+
+.nav-link p{
+  margin-bottom: 0px;
+  color:#ffb74d;
+}
+
+.navbar-light .navbar-brand {
+    color:#ffb74d;
+    font font-weight: bold; 
+}
+
+.navbar-light .navbar-toggler {
+  border-color: #ffb74d;
+
+}
+
+.navbar-brand {
+  text-align: center;
+  padding-left: 1em;
+}
+
+.fa {
+  color:#ffb74d;
+}
+
+.navbar-default {
+    background-color: red;
+    
+}
+
+#navbarNav {
+  width: 100%;
+  text-align: right;
+  margin-left: 80%;
+}
+.container-fluid {
+    width: 100%;
+     
+}
+
+#front_message {
+  margin-top: 18%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#front_message h5{
+  margin-top: 2%;
+  font-style: italic;
+  color: #f7faff;
+  margin-bottom: 2%;
+
+}
+
+
+
+#aboutme {
+
+  background-color: #ffb74d;
+  color: black;
+  border-color: transparent;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+#navubar {
+  width: 100%;
+}
+
+#aboutme:hover {
+
+  background-color: transparent; /* Green */
+  color: #ffb74d;
+  border-color: #ffb74d;
+
+}
+
+#container {
+
+    height: 100%;
+}
+
+#bg {
+  z-index: -1;
+  min-height: 100%;
+  min-width: 1024px;
+  
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+  
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#hi {
+  color: #ffb74d;
+  font-weight: bold;
+}
+
+#landpage_text {
+color: #f2f2f2;
+font-weight: bold;
+    
+}
+
+#prof {
+  color: white    ;
+}
+
+#fff p {
+
+  margin: 0;
+}
+#mypic {
+
+  width: 70%;
+  height: 100%;
+  border-radius: 10%;
+}
+
+.leftspace {
+  padding-left: 5%;
+  margin-top: 5%;
+}
+
+.rightspace {
+  margin-top: 5%;
+  padding-right: 10%;
+}
+
+.nama {
+  margin-left: -3%;
+  margin-top: 5%;
+  font-family: inherit;
+}
+
+.nama p {
+  color: #ffb74d;
+  font-weight: bold;
+}
+
+.nama li {
+  color: #f2f2f2;
+  font-weight: bold;
+}
+
+#knows {
+  color: #ffb74d;
+}
+.know {
+  color:#f2f2f2 ;
+  margin-bottom: 5%;
+}
+
+.but2 {
+  margin-top: 2%;
+}
+
+/* FORM */
+
+.bg-light {
+  background-color: transparent!important;
+}
+
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/* FORM */
+
+.form .plan input, .form .payment-plan input, .form .payment-type input{
+  display: none;
+}
+
+.form label{
+  position: relative;
+  color: #fff;
+  background-color: #aaa;
+  font-size: 1.4vw;
+  text-align: center;
+  height: 100px;
+  line-height: 100px;
+  display: block;
+  cursor: pointer;
+  border: 3px solid transparent;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.form .plan input:checked + label, .form .payment-plan input:checked + label, .form .payment-type input:checked + label{
+  border: 3px solid #333;
+  background-color: #2fcc71;
+}
+
+.form .plan input:checked + label:after, form .payment-plan input:checked + label:after, .form .payment-type input:checked + label:after{
+  content: "\2713";
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 100%;
+  border: 2px solid #333;
+  background-color: #2fcc71;
+  z-index: 999;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+}
+
+.isian {
+  display: none;
+}
+
+.isian li {
+  color: #ffb74d;
+}
+
+#isi_hobby li {
+  color: #f2f2f2 ;
+}
+
+#isi_skill li {
+  color: #f2f2f2 ;
+}
+
+#isi_bucketlist li {
+  color:  #f2f2f2 ;
+}
+
+#isi_bucketlist h5 {
+  color:  #ffb74d ;
+}
+
+.isian h2 {
+  color: #ffb74d;
+}
+
+.isian p {
+ 
+  font-family: inherit;
+  color: #f2f2f2 ;
+  text-align: justify;
+}
+
+.isi {
+  margin-top:  2%;
+}
+
+#isi_project li {
+  color:#f2f2f2;
+}
+
+#isi_project img {
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
